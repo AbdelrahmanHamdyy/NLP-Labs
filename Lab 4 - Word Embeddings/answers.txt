@@ -1,0 +1,57 @@
+
+Student 1: Abdelrahman Noaman Loqman
+Student 2: Abdelrahman Hamdy Ahmed
+
+Q1:
+
+It Describes the number of unique words that we have in our vocabulary and each one of them has its own embedding vector that describes its meaning
+
+
+Q2:
+
+this describes the length of the vector that describes the word spain and each other word
+as each of them is described by a vector with length 300 contains the semantics of this word
+
+
+Predicted Country:
+Egypt
+
+Predicted Similarity:
+0.7626820802688599
+
+Q3:
+
+yes it is the correct one as Athens is the capital of Greece so using the same relation we can know that cairo is the capital of egypt
+
+
+Q4:
+
+yes it makes sense as
+country1 - capital1  = country2 - capital2
+then to get the embedding of country2 we will get capital2 on the other side then this would be a valid estimation for the embedding value of the correct one
+and egypt is the most similar answer to this one
+so Cairo to Egypt has the same relation as Athens to Greece 
+
+
+Computed Accuracy:
+0.9192082407594425
+
+Q5:
+
+Yes it makes sense, 
+as we can see that each cluster is containing data that are related to each other 
+and when the meaning of them is so close they are so close also
+
+
+Q6:
+
+Here we can see like 3 clusters
+as each of them has related data as those words appear in similar context
+we can also split them into 4 clusters
+as
+1-> gas oil petroleum  (somethings related to each other in context  to each other so they are close to each other)
+2-> country continent  (continent consists of many countries so they are related to each other in context and they are close)
+3-> city town village  (they are also related to each other in context to each other as we can say they have the same relation as a place people live in)
+4-> happy joyful sad   (They are adjectives that can describe the human mood as if the human is happy or sad or joyful so they are related to each other in context)
+Taking a side note that it doesn't take care of the meaning of the word as happy and sad are closer to each other but it takes consideration of the context they were mentioned in
+
